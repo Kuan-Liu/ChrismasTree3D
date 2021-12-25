@@ -1,9 +1,8 @@
 # ChristmasTree3D
  Animated 3D Christmas Tree
  
-![3D Tree Animate](https://github.com/Kuan-Liu/ChrismasTree3D/blob/main/3dAnimatedplot_xmastree.gif)
+ Updated 2021 3D Christmas Tree!!!
  
- 
-![3D Tree](https://github.com/Kuan-Liu/ChrismasTree3D/blob/main/3dmaxtree.PNG)
- 
+![3D Tree Animate](https://github.com/Kuan-Liu/ChrismasTree3D/blob/main/3dAnimatedplot_xmastree2.gif)
+
  

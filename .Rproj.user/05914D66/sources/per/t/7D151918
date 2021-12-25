@@ -1,15 +1,18 @@
 {
-    "id": "C40A49AD",
-    "path": "C:/DB Mount/GitHub/ChrismasTree3D/xmastree.R",
+    "id": "7D151918",
+    "path": "D:/GitHub/ChristmasTree3D/xmastree.R",
     "project_path": "xmastree.R",
     "type": "r_source",
     "hash": "3724591900",
     "contents": "",
     "dirty": false,
-    "created": 1608944170948.0,
+    "created": 1640406883336.0,
     "source_on_save": false,
-    "relative_order": 1,
-    "properties": {},
+    "relative_order": 3,
+    "properties": {
+        "cursorPosition": "87,72",
+        "scrollLine": "83"
+    },
     "folds": "",
     "lastKnownWriteTime": 1608943475,
     "encoding": "UTF-8",
