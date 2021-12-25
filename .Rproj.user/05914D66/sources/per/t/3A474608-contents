@@ -77,12 +77,13 @@ z1<- runif(100, min=-2, max=14)
 
 plotrgl(windowRect = c(30, 30, 500, 500))
 rgl.bg(color = "#141852")
-pch3d(2.5,2.5,9.8, col="yellow",bg="yellow",cex=1,pch=11,radius = 0.2,add=TRUE)
+pch3d(2.5,2.5,9.8, col="yellow",bg="yellow",cex=1,pch=16,radius = 0.1,add=TRUE)
+pch3d(2.5,2.5,9.8, col="yellow",bg="yellow",cex=1,pch=8,radius = 0.18,add=TRUE)
 pch3d(x1,y1,z1, col="white",cex=1,pch=8,radius = 0.04, lit = TRUE)
 title3d(main="Merry Christmas!", color="red", cex=1.5)
 rgl.viewpoint( theta=0,phi=-85,zoom = 0.5 )
 
-# play3d( spin3d( axis = c(0, 0, 1), rpm = 10), duration = 10 )
+# play3d( spin3d( axis = c(0, 0, 1), rpm = 4), duration = 15 )
 
 movie3d(
   movie="3dAnimatedplot_xmastree2",
