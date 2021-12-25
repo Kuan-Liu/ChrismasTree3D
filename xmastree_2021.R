@@ -3,8 +3,6 @@ library(plot3Drgl)
 library(rgl)
 library(magick)
 
-par(bg = '#141852',mar = c(0, 0, 0, 0))
-
 #tree x-y plane;
 rect3D(x0 = c(2,2,1,1.5,1,1.5, 2.25), 
        y0 = c(2,2,1,1.5,1,1.5,2.25),
@@ -75,18 +73,18 @@ x1<- runif(100, min=-2, max=7)
 y1<- runif(100, min=-2, max=7)
 z1<- runif(100, min=-2, max=14)
 
+#night sky;
 plotrgl(windowRect = c(30, 30, 500, 500))
 rgl.bg(color = "#141852")
-pch3d(2.5,2.5,9.8, col="yellow",bg="yellow",cex=1,pch=16,radius = 0.1,add=TRUE)
-pch3d(2.5,2.5,9.8, col="yellow",bg="yellow",cex=1,pch=8,radius = 0.18,add=TRUE)
+pch3d(2.5,2.5,9.8, col="yellow",bg="yellow",cex=1,pch=16,radius = 0.15,add=TRUE)
 pch3d(x1,y1,z1, col="white",cex=1,pch=8,radius = 0.04, lit = TRUE)
 title3d(main="Merry Christmas!", color="red", cex=1.5)
 rgl.viewpoint( theta=0,phi=-85,zoom = 0.5 )
 
-play3d( spin3d( axis = c(0, 0, 1), rpm = 4), duration = 15 )
+# play3d( spin3d( axis = c(0, 0, 1), rpm = 4), duration = 15 )
 
 movie3d(
-  movie="3dAnimatedplot_xmastree2",
+  movie="3dAnimatedplot_xmastree_night",
   spin3d( axis = c(0, 0, 1), rpm = 4),
   duration = 15,
   dir = "C:/Users/kuan9/Documents",
@@ -94,6 +92,24 @@ movie3d(
   clean = TRUE
 )
 
+#daytime sky;
+plotrgl(windowRect = c(30, 30, 500, 500))
+# rgl.bg(color = "#f4f4e5")
+pch3d(2.5,2.5,9.8, col="yellow",bg="yellow",cex=1,pch=16,radius = 0.15,add=TRUE)
+pch3d(x1,y1,z1, col="#c4eaf7",cex=1,pch=8,radius = 0.04, lit = TRUE)
+title3d(main="Merry Christmas!", color="red", cex=1.5)
+rgl.viewpoint( theta=0,phi=-85,zoom = 0.5 )
+
+# play3d( spin3d( axis = c(0, 0, 1), rpm = 4), duration = 15 )
+
+movie3d(
+  movie="3dAnimatedplot_xmastree_day",
+  spin3d( axis = c(0, 0, 1), rpm = 4),
+  duration = 15,
+  dir = "C:/Users/kuan9/Documents",
+  type = "gif",
+  clean = TRUE
+)
 
 
 

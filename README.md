@@ -3,6 +3,10 @@
  
  Updated 2021 3D Christmas Tree!!!
  
-![3D Tree Animate](https://github.com/Kuan-Liu/ChrismasTree3D/blob/main/3dAnimatedplot_xmastree2.gif)
+## Night Sky
+![3D Tree Animate](https://github.com/Kuan-Liu/ChrismasTree3D/blob/main/3dAnimatedplot_xmastree_night.gif)
+
+## Daytime Sky
+![3D Tree Animate](https://github.com/Kuan-Liu/ChrismasTree3D/blob/main/3dAnimatedplot_xmastree_day.gif)
 
  
